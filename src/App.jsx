@@ -1,8 +1,9 @@
 import "./App.css";
+import MainHeader from "./components/MainHeader/MainHeader";
 
 function App() {
   return <div className="App">
-    asdf
+    <MainHeader/>
   </div>;
 }
 
