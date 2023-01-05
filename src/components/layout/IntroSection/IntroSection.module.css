@@ -1,6 +1,6 @@
 .intro {
   min-height: 100vh;
-  background: url("../../assets/intro-bg.jpg") no-repeat center;
+  background: url("../../../assets/intro-bg.jpg") no-repeat center;
   background-size: cover;
   padding-top: 16.25rem;
   padding-bottom: 3rem;
@@ -25,7 +25,7 @@
 }
 .searchForm__field {
   width: 300px;
-  background: transparent url("../../assets/circle-icon.svg") no-repeat left 6px;
+  background: transparent url("../../../assets/circle-icon.svg") no-repeat left 6px;
   background-size: 20px;
   border: 0;
   border-bottom: 2px solid #fff;

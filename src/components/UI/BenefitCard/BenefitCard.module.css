@@ -1,0 +1,24 @@
+.benefit__card {
+  grid-column: span 1;
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+  margin-bottom: 110px;
+}
+.benefit__cardThumb {
+  display: block;
+}
+.benefit__cardTitle {
+  font-weight: 700;
+  font-size: 1.2rem;
+  line-height: 1.5rem;
+}
+.benefit__cardDesc {
+  font-size: 1.1rem;
+  line-height: 1.5rem;
+}
+@media screen and (max-width: 560px) {
+  .benefit__card {
+    margin-bottom: 2rem;
+  }
+}
