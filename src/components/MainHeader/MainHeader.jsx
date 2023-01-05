@@ -41,11 +41,11 @@ const MainHeader = () => {
               <span className={cl.header__navCloseLine}></span>
             </div>
           </nav>
-          <div className={[cl.header__burger, cl.burger]}>
+          {/* <div className={[cl.header__burger, cl.burger]}>
             <span className={cl.burger__line}></span>
             <span className={cl.burger__line}></span>
             <span className={cl.burger__line}></span>
-          </div>
+          </div> */}
         </div>
       </NarrowWrapper>
     </header>
