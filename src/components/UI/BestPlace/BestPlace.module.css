@@ -5,7 +5,7 @@
 }
 .card__pic {
   position: relative;
-  background:url("../assets/top-1.jpg") no-repeat center;
+  background:url("../../../assets/top-1.jpg") no-repeat center;
   background-size: cover;
   height: 380px;
 }
@@ -35,7 +35,7 @@
   color: white;
   line-height: 1.5rem;
   padding-right: 22px;
-  background: url("../assets/heart-icon.svg") no-repeat right;
+  background: url("../../../assets/heart-icon.svg") no-repeat right;
   margin-right: 15px;
 }
 .card__comments {
@@ -43,7 +43,7 @@
   color: white;
   line-height: 1.5rem;
   padding-right: 22px;
-  background: url("../assets/comment-icon.svg") no-repeat right;
+  background: url("../../../assets/comment-icon.svg") no-repeat right;
 }
 .card__description {
   line-height: 1.5rem;
