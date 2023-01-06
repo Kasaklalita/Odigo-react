@@ -1,5 +1,5 @@
 import React from "react";
-import PlaceCard from "../../UI/BenefitCard/PlaceCard/PlaceCard";
+import PlaceCard from "../../UI/PlaceCard/PlaceCard";
 import WideWrapper from "../WideWrapper/WideWrapper";
 import cl from "./ThePlaces.module.css";
 

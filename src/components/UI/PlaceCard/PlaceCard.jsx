@@ -1,6 +1,6 @@
 import React, { useMemo } from "react";
 import cl from "./PlaceCard.module.css";
-import placePhoto from "../../../../assets/place-1.jpg";
+import placePhoto from "../../../assets/place-1.jpg";
 
 export default function PlaceCard({ caption }) {
   return (

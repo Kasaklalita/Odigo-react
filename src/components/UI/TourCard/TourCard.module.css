@@ -1,0 +1,29 @@
+.tour {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 6.75rem;
+  align-items: center;
+}
+.tour__info {
+  display: flex;
+  flex-direction: column;
+  gap: 3rem;
+  padding: 0 2rem;
+}
+.tour__title {
+  font-weight: 500;
+  font-size: 1.8rem;
+  line-height: 40px;
+}
+.tour__description {
+  line-height: 1.5rem;
+}
+
+@media screen and (max-width: 767px) {
+  .tour {
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+    align-items: center;
+  }
+}
