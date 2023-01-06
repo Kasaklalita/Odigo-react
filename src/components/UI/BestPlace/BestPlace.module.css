@@ -3,19 +3,20 @@
   flex-direction: column;
   gap: 2rem;
 }
-.card__pic {
+.photoContainer {
+  width: 100%;
   position: relative;
-  background:url("../../../assets/top-1.jpg") no-repeat center;
+  /* background:url("../../../assets/top-1.jpg") no-repeat center;
   background-size: cover;
-  height: 380px;
+  height: 380px; */
 }
-.card__thumb {
+.photo {
+  width: 100%;
 }
-.card__stats {
+.information {
   display: flex;
-  flex-wrap: wrap;
   align-items: center;
-  justify-content: flex-end;
+  justify-content: space-between;
   position: absolute;
   bottom: 0;
   left: 0;
@@ -23,41 +24,43 @@
   background: rgba(21, 24, 36, 0.6);
   padding: 1rem 1.5rem;
 }
-.card__title {
+.title {
   font-weight: 500;
   font-size: 1.1rem;
   line-height: 1.5rem;
   color: white;
-  margin: 0 auto 0 0;
 }
-.card__likes {
+.statistics {
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+}
+.likes {
   font-weight: 500;
   color: white;
   line-height: 1.5rem;
   padding-right: 22px;
   background: url("../../../assets/heart-icon.svg") no-repeat right;
-  margin-right: 15px;
 }
-.card__comments {
+.comments {
   font-weight: 500;
   color: white;
   line-height: 1.5rem;
   padding-right: 22px;
   background: url("../../../assets/comment-icon.svg") no-repeat right;
 }
-.card__description {
+.description {
   line-height: 1.5rem;
 }
-.card__more {
+.seeMore{
   padding: 0.6rem 1.2rem;
   line-height: 1.5rem;
   background: #006DFE;
-  align-self: flex-start;
   color: white;
-  margin: auto auto 0 0;
+  align-self: flex-start;
 }
-.card__more:hover,
-.card__more:active,
-.card__more:focus{
+.seeMore:hover,
+.seeMore:active,
+.seeMore:focus{
   background-color: #0E66DA;
 }

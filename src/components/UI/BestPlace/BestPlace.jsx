@@ -1,24 +1,26 @@
 import React from "react";
 import cl from "./BestPlace.module.css";
-import placeImage from "../../../assets/top-1.jpg"
+import placeImage from "../../../assets/top-1.jpg";
 
 export default function BestPlace({ place }) {
   return (
     <div className={cl.card}>
-      <div className={cl.card__pic}>
-        <img src={placeImage} alt="" className={cl.card__thumb} />
-        <div className={cl.card__stat}>
-          <h3 className={cl.card__title}>{place.title}</h3>
-          <div className={cl.card__likes}>
-            <span className={cl.card__likesValue}>{place.likes}</span>
-          </div>
-          <div className={cl.card__comments}>
-            <span className={cl.card__commentsValue}>{place.comments}</span>
+      <div className={cl.photoContainer}>
+        <img src={placeImage} alt="" className={cl.photo} />
+        <div className={cl.information}>
+          <h3 className={cl.title}>{place.title}</h3>
+          <div className={cl.statistics}>
+            <div className={cl.likes}>
+              <span>{place.likes}</span>
+            </div>
+            <div className={cl.comments}>
+              <span>{place.comments}</span>
+            </div>
           </div>
         </div>
       </div>
-      <p className={cl.card__description}>{place.description}</p>
-      <a href="" className={cl.card__more}>
+      <p className={cl.description}>{place.description}</p>
+      <a href="" className={cl.seeMore}>
         SEE MORE
       </a>
     </div>
