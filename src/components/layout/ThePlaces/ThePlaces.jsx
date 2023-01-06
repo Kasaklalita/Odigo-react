@@ -18,7 +18,7 @@ export default function ThePlaces() {
         </div>
         <div className={cl.places__cards}>
           {captions.map((caption) => {
-            return <PlaceCard caption={caption}/>
+            return <PlaceCard caption={caption} key={caption}/>
           })}
         </div>
       </WideWrapper>
